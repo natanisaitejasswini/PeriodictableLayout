@@ -1,0 +1,256 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#container{
+width: 952px;
+height: 480px;
+margin: 0px auto;
+background-color: rgb(238,238,238);
+border: 5px solid rgb(246,246,246);
+}
+#header ul{
+display: inline-block;
+width: 950px;
+color: rgb(249,112,133);
+list-style-type: none;
+}
+  #header ul li{
+  display: inline;
+  width: 970px;
+  padding-left: 10px;
+  padding-right: 22px;
+  }
+  /*#header li: last-child{
+    padding-left: 10px;
+  }*/
+  .move1{
+    margin: 0px -12px 0px -12px;
+  }
+  .move2{
+    margin: 0px -18px 0px 0px;
+  }
+#wrapper{
+  display: inline-block;
+}
+#navigation{
+  display: inline-block;
+}
+#subcontents{
+display: inline-block;
+height: 444px;
+width: 885px;
+vertical-align: top;
+}
+#navigation ul{
+display:block;
+height: 458px;
+width: 54px;
+padding-left: 5px;
+color: rgb(249,112,133);
+text-align: center;
+list-style-type: none;
+}
+  #navigation ul li{
+    padding-bottom: 23px;
+  }
+  .no   a{
+    padding-bottom: 0px;
+    list-style:none;
+
+  }
+#sub_1{
+/*border: 1px solid blue;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 19px;
+}
+.cell{
+width:22px;
+height:10px;
+margin: 0px 10px 10px 10px;
+display: inline-block;
+vertical-align: top;
+
+}
+.number {
+  top: 4px;
+  right: 5px;
+  font-size: 10px;
+}
+.element {
+  bottom: 1px;
+  height:38px;
+  width: 43px;
+  right: 1px;
+  color: rgb(43,40,174);
+  box-sizing: border-box;
+  border: 1px solid rgb(105,155,20);
+  text-align: center;
+  background-color: rgb(105,155,20);
+  padding: 0px 0px 0px 0px;
+}
+.bottom_number {
+  font-size: 9px;
+  color: rgb(43,40,174);
+}
+.symbol {
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  margin-top: 0px;
+  font-size: 9px;
+  font-weight: bold;
+  line-height: 1;
+  height: 9px;
+  font-size: bold;
+  color: rgba(255,255,255);
+}
+
+.botttom_number {
+  bottom: 4px;
+  left: 0px;
+  right: 0px;
+}
+.element_blue{
+  bottom: 1px;
+  height:38px;
+  width: 43px;
+  right: 1px;
+  color: rgb(43,40,174);
+  box-sizing: border-box;
+  border: 1px solid rgb(105,150,254);
+  text-align: center;
+  background-color: rgb(105,150,254);
+  padding: 0px 0px 0px 0px;
+}
+.element_pink{
+  bottom: 1px;
+  height:38px;
+  width: 43px;
+  right: 1px;
+  color: rgb(43,40,174);
+  box-sizing: border-box;
+  border: 1px solid rgb(195,129,130);
+  text-align: center;
+  background-color: rgb(251,151,152);
+  padding: 0px 0px 0px 0px;
+}
+.element_yellow{
+  bottom: 1px;
+  height:38px;
+  width: 43px;
+  right: 1px;
+  color: rgb(43,40,174);
+  box-sizing: border-box;
+  border: 1px solid rgb(210,168,2);
+  text-align: center;
+  background-color: rgb(253,205,9);
+  padding: 0px 0px 0px 0px;
+}
+.element_green{
+  bottom: 1px;
+  height:38px;
+  width: 43px;
+  right: 1px;
+  color: rgb(43,40,174);
+  box-sizing: border-box;
+  border: 1px solid rgb(20,193,17);
+  text-align: center;
+  background-color: rgb(48,206,34);
+  padding: 0px 0px 0px 0px;
+}
+#sub_2{
+/*border: 1px solid grey;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+#sub_3{
+/*border: 1px solid pink;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+#sub_4{
+/*border: 1px solid orange;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+.cell1{
+width:22px;
+height:10px;
+margin: 0px 17px 10px 10px;
+display: inline-block;
+vertical-align: top;
+}
+#sub_5{
+/*border: 1px solid skyblue;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+#sub_6{
+/*border: 1px solid grey;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+#sub_7{
+/*border: 1px solid brown;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 2px;  
+}
+#sub_8{
+/*border: 1px solid brown;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 23px;  
+}
+#sub_8 p{
+font-size: 9px;
+margin-top: 5px;
+color: rgb(249,105,101);
+display: inline-block;
+}
+ h6{
+display: inline;
+margin: 0px 0px 0px 43px;
+font-size: 8px;
+color: rgb(249,105,101);
+}
+
+#sub_9{
+/*border: 1px solid brown;*/
+height: 38px;
+width: 884px;
+display: inline-block;
+margin-top: 23px;  
+}
+#sub_9 p{
+font-size: 9px;
+margin-top: 5px;
+display: inline-block;
+color: rgb(249,105,101);
+}
+ h6{
+display: inline;
+margin: 0px 0px 0px 43px;
+font-size: 8px;
+color: rgb(249,105,101);
+}
+
+
+
+
+
